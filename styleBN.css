@@ -1,0 +1,102 @@
+body{
+    font-family: Helvetica, Verdana, sans-serif;
+    margin:0px;
+    font-size: 1.8vw;
+}
+
+#logo{
+    margin:1vw;
+    padding: 5 vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.6vw;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px orange;
+    width: 15%;
+    border-radius: 40%;
+}
+
+ul{
+    0px;
+}
+
+header{
+    background-color: darkblue;
+    color: orange;
+    display: flex;
+    height: 15 vh;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-ul{
+    display: flex;
+}
+#nav-ul > li{
+    padding: 8px;
+    margin: 16px;
+}
+
+body>header>nav>ul{
+    list-style: none;
+    text-decoration: none;
+}
+.navbutton{
+    color: orange;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid orange;
+    border-radius: 40%;
+}
+
+body>main article{
+    width:80%;
+    margin:auto;
+    
+}
+#main-content{
+    display:flex;
+    justify-content: space-around;
+}
+.form-group{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 80%;
+}
+label{
+    flex-basis: 30%;
+}
+input{
+flex-basis: 85%;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+body > main>section {
+    text-align: center;
+    margin:5%;
+}
+
+aside>form{
+    text-align:justify;
+}
+
+body>footer{
+    background-color: darkblue;
+    color: orange;
+    display: flex;
+
+}
+#footer-ul{
+    display:flex;
+    list-style:none;
+    margin:20px;
+}
+#footer-ul>div>li{
+    margin-left: 20px;
+    
+}
+#footer-ul>div>li>a{
+    text-decoration: none;
+    color: orange;
+}
